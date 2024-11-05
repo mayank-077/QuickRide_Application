@@ -57,4 +57,4 @@ Comprehensive Testing: Thoroughly tested each service to ensure reliability and 
 
 # DataBase Schema
 
-!(https://github.com/user-attachments/assets/e0e80561-5734-425a-ac50-02ed1d5c1f17)
+![Screenshot 2024-11-04 000901](https://github.com/user-attachments/assets/e0e80561-5734-425a-ac50-02ed1d5c1f17)
