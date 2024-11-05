@@ -14,6 +14,7 @@ QuickRide is a scalable backend service for a ride-booking application. It inclu
 **1. Backend Development**
 Developed a modular backend architecture to support various core functionalities for the ride-booking application.
 Ensured scalability and optimized performance across services.
+
 **2. Authentication & Security**
 Implemented JWT-based authentication with Spring Security to ensure secure user sessions and data integrity.
 **3. Modular Architecture**
@@ -23,9 +24,11 @@ Ride
 Payment
 Wallet
 Rating
+
 **4. Route Optimization and Pricing Strategy**
 Integrated OSRM API to optimize routes based on real-time traffic and distance.
 Applied the Strategy Design Pattern to support surge pricing and flexible fare calculation strategies.
+
 **5. Additional Functionalities**
 OTP and Email Notifications: Enhanced user security and communication.
 Wallet Management: Added wallet features for seamless in-app transactions.
