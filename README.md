@@ -20,11 +20,11 @@ Implemented JWT-based authentication with Spring Security to ensure secure user 
 
 **3. Modular Architecture**
 Adopted a microservices-like structure using modular entities for efficient data management and flexibility. Key entities include:
-User
-Ride
-Payment
-Wallet
-Rating
+User,
+Ride,
+Payment,
+Wallet,
+Rating,
 
 **4. Route Optimization and Pricing Strategy**
 Integrated OSRM API to optimize routes based on real-time traffic and distance.
