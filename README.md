@@ -17,6 +17,7 @@ Ensured scalability and optimized performance across services.
 
 **2. Authentication & Security**
 Implemented JWT-based authentication with Spring Security to ensure secure user sessions and data integrity.
+
 **3. Modular Architecture**
 Adopted a microservices-like structure using modular entities for efficient data management and flexibility. Key entities include:
 User
