@@ -53,7 +53,7 @@ Comprehensive Testing: Thoroughly tested each service to ensure reliability and 
 
 # Low-Level Design
 
-!(https://github.com/user-attachments/assets/a83ad3b3-a9e1-43d7-a627-452381d96bfb)
+![Low level design of the Quick ride](https://github.com/user-attachments/assets/a83ad3b3-a9e1-43d7-a627-452381d96bfb)
 
 # DataBase Schema
 
