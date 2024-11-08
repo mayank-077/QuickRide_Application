@@ -1,32 +1,23 @@
 package com.SPRINGBOOT.project.QuickRide.QuickRideApp.Controllers;
 
+import com.SPRINGBOOT.project.QuickRide.QuickRideApp.TestContainerConfiguration;
 import com.SPRINGBOOT.project.QuickRide.QuickRideApp.dto.OnboardDriverDto;
 import com.SPRINGBOOT.project.QuickRide.QuickRideApp.dto.SignupDto;
 import com.SPRINGBOOT.project.QuickRide.QuickRideApp.entities.User;
 import com.SPRINGBOOT.project.QuickRide.QuickRideApp.entities.enums.Role;
 import com.SPRINGBOOT.project.QuickRide.QuickRideApp.repositories.RiderRepository;
 import com.SPRINGBOOT.project.QuickRide.QuickRideApp.repositories.UserRepository;
-import com.SPRINGBOOT.project.QuickRide.QuickRideApp.service.impl.TestContainerConfiguration;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.reactive.AutoConfigureWebTestClient;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Import;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.authority.AuthorityUtils;
-import org.springframework.security.test.context.TestSecurityContextHolder;
-import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.security.test.context.support.WithUserDetails;
-import org.springframework.security.test.web.reactive.server.SecurityMockServerConfigurers;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
 
 import java.util.Set;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @AutoConfigureWebTestClient(timeout = "100000")
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
@@ -53,7 +44,7 @@ class AuthControllerTest {
         user.setRoles(Set.of(Role.RIDER));
     }
 
-//    @Test
+    @Test
     void testSignUp_success() {
         SignupDto signupDto = new SignupDto();
         signupDto.setEmail("test@example.com");
@@ -69,9 +60,9 @@ class AuthControllerTest {
                 .jsonPath("$.data.email").isEqualTo(signupDto.getEmail())
                 .jsonPath("$.data.name").isEqualTo(signupDto.getName());
     }
-//
-//    @Test
-//    @WithUserDetails("admin@gmail.com")
+
+    @Test
+    @WithUserDetails("admin@gmail.com")
     void testOnboardDriver_success() {
 
         if (!userRepository.existsById(1L)) {
