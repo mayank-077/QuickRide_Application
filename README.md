@@ -30,3 +30,15 @@ Used Postgre SQL and PostGIS as the database.
 
 Implemented OTP and email notifications, wallet management, and a rating system; documented 
 APIs with Swagger and thoroughly tested services. 
+
+Low Level Design
+
+![Low level design of the Quick ride](https://github.com/user-attachments/assets/b4ca6c3b-0538-4345-b6a4-eece322338fa)
+
+Schema
+
+![Screenshot 2024-11-04 000901](https://github.com/user-attachments/assets/deaa21c5-2b49-4bff-aa02-232878cdcacf)
+
+PostGis(Driver Location)
+
+![Screenshot 2024-11-07 232702](https://github.com/user-attachments/assets/87c174de-3529-4fc9-8f21-1ada81318ae0)
