@@ -48,3 +48,7 @@ APIs with Swagger and thoroughly tested services.
 ## PostGis(Driver Location)
 
 ![Screenshot 2024-11-07 232702](https://github.com/user-attachments/assets/87c174de-3529-4fc9-8f21-1ada81318ae0)
+
+## Swagger Ui
+
+![Screenshot 2024-11-14 235917](https://github.com/user-attachments/assets/5af2229c-f9e3-4805-b671-d553bedaacca)
