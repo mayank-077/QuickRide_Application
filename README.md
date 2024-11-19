@@ -1,10 +1,16 @@
 # Technologies used: 
 •	Spring Boot
+
 •	OSRM API
+
 •	Hibernate JPA
+
 •	PostgreSQL
+
 •	PostGIS
+
 •	Spring Security (JWT)
+
 •	Swagger UI
 
 # Features
