@@ -1,5 +1,5 @@
 # Technologies used: 
-•	Spring Boot
+•	Spring Boot framework
 
 •	OSRM API
 
