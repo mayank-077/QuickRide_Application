@@ -17,6 +17,7 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
+    // used to authenticated all the manager
     @Bean
     AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {
         return configuration.getAuthenticationManager();

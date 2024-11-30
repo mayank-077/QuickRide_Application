@@ -37,13 +37,16 @@ public class AuthController {
     @PostMapping("/login")
     ResponseEntity<LoginResponseDto> login(@RequestBody LoginRequestDto loginRequestDto,
                                            HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) {
+        // getting the acces, ref tokens
         String tokens[] = authService.login(loginRequestDto.getEmail(), loginRequestDto.getPassword());
 
+        // storing the refresh token in the cookie
         Cookie cookie = new Cookie("token", tokens[1]);
         cookie.setHttpOnly(true);
 
         httpServletResponse.addCookie(cookie);
 
+        // returning the access token
         return ResponseEntity.ok(new LoginResponseDto(tokens[0]));
     }
 
