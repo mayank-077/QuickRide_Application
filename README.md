@@ -30,7 +30,8 @@ Integrated OSRM API for route optimization and used the Strategy Design Pattern 
 Used Postgre SQL and PostGIS as the database.
 
 ## Additional Functionalities:
-Implemented OTP and email notifications, wallet management, and a rating system; 
+Implemented OTP and email notifications, wallet management, and a rating system;
+
 documented APIs with Swagger and thoroughly tested services. 
 
 ## Low Level Design
