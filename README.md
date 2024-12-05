@@ -23,15 +23,15 @@ management, payment processing, and driver allocation.
 Secured user sessions with JWT-based authentication using Spring Security. 
 
 ## Modular Architecture: 
-Designed a services-like structure with modular entities (User, Ride, Payment, Wallet, Rating) for 
+Designed a services-like structure with modular entities (User, Ride, Payment, Wallet, Rating), DTOs, Controllers and Repositories for 
 efficient data management.
 
 Integrated OSRM API for route optimization and used the Strategy Design Pattern to support surge pricing and fare strategies. 
 Used Postgre SQL and PostGIS as the database.
 
 ## Additional Functionalities:
-Implemented OTP and email notifications, wallet management, and a rating system; documented 
-APIs with Swagger and thoroughly tested services. 
+Implemented OTP and email notifications, wallet management, and a rating system; 
+documented APIs with Swagger and thoroughly tested services. 
 
 ## Low Level Design
 
