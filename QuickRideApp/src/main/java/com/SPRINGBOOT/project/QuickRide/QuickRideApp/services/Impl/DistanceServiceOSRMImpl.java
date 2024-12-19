@@ -19,7 +19,7 @@ public class DistanceServiceOSRMImpl implements DistanceService {
     public double calculateDistance(Point src, Point dest) {
         try {
             String uri = src.getX()+","+src.getY()+";"+dest.getX()+","+dest.getY(); // appending the loation coordinate to the url
-            OSRMResponseDto responseDto = RestClient.builder() //restclient is used to call 3rd party api
+            OSRMResponseDto responseDto = RestClient.builder() //rest client is used to call 3rd party api
                     .baseUrl(OSRM_API_BASE_URL)
                     .build()
                     .get()

@@ -21,7 +21,7 @@ public class CashPaymentStrategy implements PaymentStrategy {
     private final WalletService walletService;
     private final PaymentRepository paymentRepository;
 
-    //
+
     @Override
     public void processPayment(Payment payment) {
         //form payment we are getting the rider and from that getting driver from that

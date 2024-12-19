@@ -16,7 +16,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
-@EnableMethodSecurity(securedEnabled = true)
+@EnableMethodSecurity(securedEnabled = true) // this is authentication on the basis of roles
 public class WebSecurityConfig {
 
     private final JwtAuthFilter jwtAuthFilter; // filter chain

@@ -15,7 +15,14 @@ public class MapperConfig {
     public ModelMapper modelMapper() {
         ModelMapper mapper = new ModelMapper();
 
-        //converting the one type to another(pointdto to points created by Geometry
+        //and we have made a mapper for only poindto to point only
+        //bcz at ride req controller we taking the pointdto but we in ridereq entity it is point
+        //so in mapping we have make a mapper
+
+        //converting the one type to another(point dto to points created by Geometry
+        //point dto to point
+
+        //setconverter is about how to convert
         mapper.typeMap(PointDto.class, Point.class).setConverter(context -> { // lambda function
             PointDto pointDto = context.getSource(); // source point
             return GeometryUtil.createPoint(pointDto); // returning the created points
@@ -30,7 +37,6 @@ public class MapperConfig {
             };
             return new PointDto(coordinates);
         });
-
 
         return mapper;
     }

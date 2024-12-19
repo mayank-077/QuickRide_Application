@@ -54,7 +54,6 @@ public class DriverServiceImpl implements DriverService {
         if(!currentDriver.getAvailable()) {
             throw new RuntimeException("Driver cannot accept ride due to unavailability");
         }
-
         //now the driver cannot accept another ride
         currentDriver.setAvailable(false);
         Driver savedDriver = driverRepository.save(currentDriver);

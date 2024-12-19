@@ -1,9 +1,9 @@
 package com.SPRINGBOOT.project.QuickRide.QuickRideApp.repositories;
 
 //costume query methods to get the information from the data base
-//talk to the databsae
+//talk to the database
 
-// All the repos are the interface which ectend the jpa so the jpa on its own return its data
+// All the repos are the interface which extend the jpa so the jpa on its own return its data
 // and the implementation is in the jpa
 
 import com.SPRINGBOOT.project.QuickRide.QuickRideApp.entities.Driver;
@@ -17,7 +17,7 @@ import java.awt.*;
 import java.util.List;
 import java.util.Optional;
 
-//methods inside the geospeatial database
+//methods inside the geospatial database
 // ST_Distance(point1, point2) -> b/w two point
 // ST_DWithin(point1, 10000) -> within 10 km
 
@@ -25,7 +25,7 @@ import java.util.Optional;
 public interface DriverRepository extends JpaRepository<Driver, Long> {
     // query for the nearest 10 drivers
     @Query(value = "SELECT d.*, ST_Distance(d.current_location, :pickupLocation) AS distance " +
-            "FROM drivers d " +
+            "FROM driver d " +
             "WHERE d.available = true AND ST_DWithin(d.current_location, :pickupLocation, 10000) " +
             "ORDER BY distance " +
             "LIMIT 10", nativeQuery = true)

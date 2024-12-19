@@ -22,7 +22,11 @@ import org.springframework.transaction.annotation.Transactional;
 public class WalletPaymentStrategy implements PaymentStrategy {
 
     private final WalletService walletService;
-    //to break the circular dependency b/w paymentservice impl -> paymentStrategyManager-> cashpaymentStrategy ->back to paymentservice
+    //to break the circular dependency b/w paymentservice impl
+    //                                     -> paymentStrategyManager
+    //                                     -> cashpaymentStrategy
+    //                                     ->back to paymentservice
+
     private final PaymentRepository paymentRepository;
 
     @Override

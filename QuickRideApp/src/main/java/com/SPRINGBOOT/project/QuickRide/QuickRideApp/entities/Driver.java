@@ -10,7 +10,7 @@ import org.locationtech.jts.geom.Point;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(indexes = { //for optimizing the schema so it will create a samll table inside this table for fast seaching
+@Table(indexes = { //for optimizing the schema so it will create a small table inside this table for fast searching
         @Index(name = "idx_driver_vehicle_id", columnList = "vehicleId") // so the searching is very fast
 })
 public class Driver {
@@ -28,7 +28,7 @@ public class Driver {
 
     private String vehicleId;
 
-    @Column(columnDefinition = "Geometry(Point, 4326)") // Column defination type and 4326 is earth geometry
+    @Column(columnDefinition = "Geometry(Point, 4326)") // Column definition type and 4326 is earth geometry
     private Point currentLocation;
 
 }

@@ -20,7 +20,13 @@ public class GlobalResponseHandler implements ResponseBodyAdvice<Object> {
     @Override
     public Object beforeBodyWrite(Object body, MethodParameter returnType, MediaType selectedContentType, Class<? extends HttpMessageConverter<?>> selectedConverterType, ServerHttpRequest request, ServerHttpResponse response) {
         //both route return the body
-        List<String> allowedRoutes = List.of("/v3/api-docs", "/actuator", "/swagger-ui", "/swagger-ui.html");
+        List<String> allowedRoutes = List.of("/v3/api-docs", "/actuator", "/swagger-ui", "/swagger-ui.html"
+                                                ,"/swagger-ui/**",        // Allow Swagger UI
+                                                "/v3/api-docs/**",       // Allow API docs
+                                                "/swagger-ui.html",      // Swagger HTML page
+                                                "/actuator/**",          // Actuator endpoints if used
+                                                "/**"                    // Optionally allow all localhost requests
+                                                );
 
         boolean isAllowed = allowedRoutes
                 .stream()

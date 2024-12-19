@@ -57,6 +57,7 @@ public class RiderServiceImpl implements RiderService {
         //sending the ride request to the database
         RideRequest savedRideRequest = rideRequestRepository.save(rideRequest);
 
+        // driver matching strategy
         List<Driver> drivers = rideStrategyManager
                 .driverMatchingStrategy(rider.getRating()).findMatchingDriver(rideRequest);
         //broadcasting the msg to the drivers

@@ -31,9 +31,13 @@ public class WalletServiceImpl implements WalletService {
     @Override
     @Transactional
     public Wallet addMoneyToWallet(User user, Double amount, String transactionId, Ride ride, TransactionMethod transactionMethod) {
+
+        // fetching the wallet from the user
         Wallet wallet = findByUser(user);
+        //update the balance
         wallet.setBalance(wallet.getBalance()+amount);
 
+        // creating the new wallet transaction object
         WalletTransaction walletTransaction = WalletTransaction.builder()
                 .transactionId(transactionId)
                 .ride(ride)
@@ -42,9 +46,9 @@ public class WalletServiceImpl implements WalletService {
                 .transactionMethod(transactionMethod)
                 .amount(amount)
                 .build();
-
+        //saving the object created
         walletTransactionService.createNewWalletTransaction(walletTransaction);
-
+        //update it into DB
         return walletRepository.save(wallet);
     }
 
@@ -68,8 +72,6 @@ public class WalletServiceImpl implements WalletService {
                 .build();
 
         walletTransactionService.createNewWalletTransaction(walletTransaction);
-
-        //        wallet.getTransactions().add(walletTransaction);
 
         return walletRepository.save(wallet);
     }

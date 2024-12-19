@@ -41,21 +41,26 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public String[] login(String email, String password) {
-        Authentication authentication = authenticationManager.authenticate(
+        //here we are passing the email and pass for authentication
+        // in this authentication is authenticated is also it will contain true and false
+        Authentication authentication = authenticationManager.authenticate( // this object contains the authorities with credentials
                 new UsernamePasswordAuthenticationToken(email, password)
         );
 
+        // getting the current user
         User user = (User) authentication.getPrincipal();
 
+        // create the tokens
         String accessToken = jwtService.generateAccessToken(user);
         String refreshToken = jwtService.generateRefreshToken(user);
 
+        // returning the string array
         return new String[]{accessToken, refreshToken};
     }
 
     @Override
-//    @Transactional // so this will make sure the rider is created if not it will roll back to the start
-    //ATOMICITY of data base
+    // @Transactional // so this will make sure the rider is created if not it will roll back to the start
+    //ATOMICITY of database
     public UserDto signup(SignupDto signupDto) {
         User user = userRepository.findByEmail(signupDto.getEmail()).orElse(null);
         if(user != null)
@@ -67,9 +72,9 @@ public class AuthServiceImpl implements AuthService {
         mappedUser.setPassword(passwordEncoder.encode(mappedUser.getPassword()));
         User savedUser = userRepository.save(mappedUser);
 
-//        create user related entities
+        //create user related entities
         riderService.createNewRider(savedUser); // inside the riderservice we have the newrider
-//        add wallet related service here
+        //add wallet related service here
         walletService.createNewWallet(savedUser);
 
         return modelMapper.map(savedUser, UserDto.class);

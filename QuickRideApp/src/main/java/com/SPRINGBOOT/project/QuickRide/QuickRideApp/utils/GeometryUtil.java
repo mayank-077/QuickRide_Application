@@ -11,14 +11,16 @@ import org.locationtech.jts.geom.PrecisionModel;
 // and defining the points will be of earth coordinates
 public class GeometryUtil {
 
-    // this can be used any places so that's why satatic
+    // this can be used any places so that's why static
     //utility method
 
     public static Point createPoint(PointDto pointDto) {
         GeometryFactory geometryFactory = new GeometryFactory(new PrecisionModel(), 4326);// initializing the geometry class and telling the geometry is of earth
-        Coordinate coordinate = new Coordinate(pointDto.getCoordinates()[0], // creating the corodinates
+
+        //extraction of the coordinate
+        Coordinate coordinate = new Coordinate(pointDto.getCoordinates()[0], // creating the coordinates
                 pointDto.getCoordinates()[1]
-        ); // passing the (longitude, latitude)
-        return geometryFactory.createPoint(coordinate); // passing the coordinates and calling the fucntion createopoint to create and then returning the created points
+        ); // passing the (longitude, latitude) present in the point dto
+        return geometryFactory.createPoint(coordinate); // passing the coordinates and calling the function createpoint to create and then returning the created points
     }
 }
