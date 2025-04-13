@@ -35,6 +35,7 @@ class AuthControllerTest {
 
     private User user;
 
+    @Test
     @BeforeEach
     void setUpEach() {
         user = new User();
@@ -44,7 +45,7 @@ class AuthControllerTest {
         user.setRoles(Set.of(Role.RIDER));
     }
 
-//    @Test
+    @Test
     void testSignUp_success() {
         SignupDto signupDto = new SignupDto();
         signupDto.setEmail("test@example.com");
@@ -62,7 +63,7 @@ class AuthControllerTest {
     }
 //
 //    @Test
-//    @WithUserDetails("admin@gmail.com")
+    @WithUserDetails("admin@gmail.com")
     void testOnboardDriver_success() {
 
         if (!userRepository.existsById(1L)) {
