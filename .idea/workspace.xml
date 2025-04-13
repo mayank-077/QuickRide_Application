@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bd64fcf-6234-4a95-ba3e-3055d4c80524" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mayank-077&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mayank-077/QuickRide_Application.git&quot;,
+    &quot;accountId&quot;: &quot;057f553e-a115-472e-b337-909023749c96&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/QuickRideApp/src/main/java/com/SPRINGBOOT/project/QuickRide/QuickRideApp/entities/Driver.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QuickRideApp/src/main/java/com/SPRINGBOOT/project/QuickRide/QuickRideApp/entities/Rider.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2nzTl0VHQq7X1K24WxVsvMkPRPJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.prodQuickApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest.testOnboardDriver_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest.testSignUp_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceImplTest.testLogin_whenSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceImplTest.testSignup_whenSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuickRideAppApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuickRideAppApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.QuickRideApp [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.QuickRideApp [spring-boot:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.QuickRideApp [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.QuickRideAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/QuickRideApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\drive D\IMP\code\project\QuickRideApp\QuickRideApp\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\drive D\IMP\code\project\QuickRideApp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.SPRINGBOOT.project.QuickRide.QuickRideApp" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn spring-boot:run" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.QuickRideAppApplication">
+    <configuration name="AuthControllerTest.testOnboardDriver_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuickRideApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.Controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.Controllers.AuthControllerTest" />
+      <option name="METHOD_NAME" value="testOnboardDriver_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthControllerTest.testSignUp_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuickRideApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.Controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.Controllers.AuthControllerTest" />
+      <option name="METHOD_NAME" value="testSignUp_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceImplTest.testLogin_whenSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuickRideApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.service.impl.AuthServiceImplTest" />
+      <option name="METHOD_NAME" value="testLogin_whenSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceImplTest.testSignup_whenSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuickRideApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.service.impl.AuthServiceImplTest" />
+      <option name="METHOD_NAME" value="testSignup_whenSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickRideAppApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuickRideApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp" />
+      <option name="MAIN_CLASS_NAME" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.QuickRideAppApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickRideAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="QuickRideApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SPRINGBOOT.project.QuickRide.QuickRideApp.QuickRideAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.QuickRideAppApplicationTests" />
+      <item itemvalue="JUnit.AuthControllerTest.testOnboardDriver_success" />
+      <item itemvalue="JUnit.AuthControllerTest.testSignUp_success" />
+      <item itemvalue="JUnit.AuthServiceImplTest.testLogin_whenSuccess" />
+      <item itemvalue="JUnit.AuthServiceImplTest.testSignup_whenSuccess" />
+      <item itemvalue="Spring Boot.QuickRideAppApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.QuickRideAppApplicationTests" />
+        <item itemvalue="JUnit.AuthControllerTest.testSignUp_success" />
+        <item itemvalue="JUnit.AuthControllerTest.testOnboardDriver_success" />
+        <item itemvalue="JUnit.AuthServiceImplTest.testLogin_whenSuccess" />
+        <item itemvalue="JUnit.AuthServiceImplTest.testSignup_whenSuccess" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bd64fcf-6234-4a95-ba3e-3055d4c80524" name="Changes" comment="" />
+      <created>1729975051553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729975051553</updated>
+      <workItem from="1729975052607" duration="816000" />
+      <workItem from="1729977671196" duration="70000" />
+      <workItem from="1730059010656" duration="5344000" />
+      <workItem from="1730132028272" duration="513000" />
+      <workItem from="1730138244960" duration="3265000" />
+      <workItem from="1730183315135" duration="348000" />
+      <workItem from="1730234087811" duration="4856000" />
+      <workItem from="1730238983902" duration="1301000" />
+      <workItem from="1730242079755" duration="248000" />
+      <workItem from="1730243746595" duration="311000" />
+      <workItem from="1730274788751" duration="4824000" />
+      <workItem from="1730285610075" duration="10228000" />
+      <workItem from="1730305630503" duration="844000" />
+      <workItem from="1730443728274" duration="2011000" />
+      <workItem from="1730466647365" duration="8670000" />
+      <workItem from="1730485345505" duration="13774000" />
+      <workItem from="1730538377451" duration="23000" />
+      <workItem from="1730554082788" duration="2222000" />
+      <workItem from="1730567943361" duration="10027000" />
+      <workItem from="1730658960419" duration="654000" />
+      <workItem from="1730720455200" duration="3807000" />
+      <workItem from="1730741237041" duration="624000" />
+      <workItem from="1730826859772" duration="955000" />
+      <workItem from="1730840561602" duration="82000" />
+      <workItem from="1730896736679" duration="6726000" />
+      <workItem from="1730912741289" duration="11314000" />
+      <workItem from="1730969951386" duration="3814000" />
+      <workItem from="1730988017937" duration="13092000" />
+      <workItem from="1731061676012" duration="3365000" />
+      <workItem from="1731066034530" duration="1734000" />
+      <workItem from="1731072793051" duration="3577000" />
+      <workItem from="1731077575346" duration="2000" />
+      <workItem from="1731078583526" duration="3000" />
+      <workItem from="1731088014019" duration="1755000" />
+      <workItem from="1731091322640" duration="358000" />
+      <workItem from="1731158993641" duration="241000" />
+      <workItem from="1731172278279" duration="10115000" />
+      <workItem from="1731583027756" duration="16000" />
+      <workItem from="1731583489882" duration="283000" />
+      <workItem from="1731583783184" duration="560000" />
+      <workItem from="1731585882756" duration="8000" />
+      <workItem from="1731592279725" duration="2301000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
